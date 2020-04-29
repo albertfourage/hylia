@@ -7,8 +7,9 @@ sections:
 - type: directory
   path: hylia/src/posts
   label: Posts
-  create: all
-  match: "*"
+  create: documents
+  match: "**"
+  new_doc_ext: ".md"
 - type: document
   path: src/index.md
   label: Homepage
