@@ -8,7 +8,7 @@ sections:
   path: hylia/src/posts
   label: Posts
   create: all
-  match: "**/*"
+  match: "*"
 - type: document
   path: src/index.md
   label: Homepage
